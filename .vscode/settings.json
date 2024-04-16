@@ -1,0 +1,44 @@
+{
+    "ros.distro": "noetic",
+    "editor.rulers": [
+        {
+            "column": 80,
+            "color": "#00dd00"
+        },
+        {
+            "column": 70,
+            "color": "#eeff073d"
+        },
+        {
+            "column": 120,
+            "color": "#da0505"
+        }
+    ],
+    "editor.defaultFormatter": "clangFormat",
+    "editor.renderWhitespace": "all",
+    "editor.formatOnPaste": false,
+    "editor.formatOnSave": false,
+    "files.trimTrailingWhitespace": false,
+    "C_Cpp.clang_format_fallbackStyle": "Google",
+    "C_Cpp.formatting": "clangFormat",
+    "C_Cpp.clang_format_path": "/usr/bin/clang-format",
+    "C_Cpp.clang_format_style": "file:${workspaceFolder}/.clang-format",
+    "markdownlint.config": {
+        "MD007": {
+            "indent": 4
+        },
+        "MD033": {
+            "allowed_elements": [
+                "sub"
+            ]
+        },
+    },
+    "python.autoComplete.extraPaths": [
+        "~/catkin_ws/devel/lib/python3/dist-packages",
+        "/opt/ros/noetic/lib/python3/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "~/catkin_ws/devel/lib/python3/dist-packages",
+        "/opt/ros/noetic/lib/python3/dist-packages"
+    ],
+}
