@@ -14,7 +14,7 @@
             "color": "#da0505"
         }
     ],
-    "editor.defaultFormatter": "clangFormat",
+    "editor.defaultFormatter": "xaver.clang-format",
     "editor.renderWhitespace": "all",
     "editor.formatOnPaste": false,
     "editor.formatOnSave": false,
