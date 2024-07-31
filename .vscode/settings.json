@@ -1,21 +1,28 @@
 {
-    "ros.distro": "noetic",
     "editor.rulers": [
         {
             "column": 80,
-            "color": "#00dd00"
+            "color": "#013001"
         },
         {
             "column": 70,
-            "color": "#eeff073d"
+            "color": "#464b003d"
         },
         {
             "column": 120,
-            "color": "#da0505"
+            "color": "#3d0000"
         }
     ],
+
+    "editor.quickSuggestions": {
+        "other": "on",
+        "comments": "off",
+        "strings": "off"
+    },
+    "editor.suggestOnTriggerCharacters": true,
+
     "editor.defaultFormatter": "xaver.clang-format",
-    "editor.renderWhitespace": "all",
+    "editor.renderWhitespace": "trailing",
     "editor.formatOnPaste": false,
     "editor.formatOnSave": false,
     "files.trimTrailingWhitespace": false,
@@ -23,6 +30,16 @@
     "C_Cpp.formatting": "clangFormat",
     "C_Cpp.clang_format_path": "/usr/bin/clang-format",
     "C_Cpp.clang_format_style": "file:${workspaceFolder}/.clang-format",
+
+    "C_Cpp.default.compilerPath": "/usr/bin/gcc",
+    "C_Cpp.default.intelliSenseMode": "gcc-x64",
+    "C_Cpp.default.browse.databaseFilename": "${default}",
+    "C_Cpp.default.compileCommands": "${default}",
+    "C_Cpp.default.configurationProvider": "${default}",
+    "C_Cpp.default.dotConfig": "${default}",
+    "C_Cpp.errorSquiggles": "enabled",
+    "C_Cpp.autocomplete": "default",
+
     "markdownlint.config": {
         "MD007": {
             "indent": 4
@@ -33,12 +50,87 @@
             ]
         },
     },
+    "ros.distro": "noetic",
+
     "python.autoComplete.extraPaths": [
         "~/catkin_ws/devel/lib/python3/dist-packages",
         "/opt/ros/noetic/lib/python3/dist-packages"
     ],
-    "python.analysis.extraPaths": [
-        "~/catkin_ws/devel/lib/python3/dist-packages",
-        "/opt/ros/noetic/lib/python3/dist-packages"
-    ],
+    "files.associations": {
+        "iostream": "cpp",
+        "stdexcept": "cpp",
+        "common.h": "c",
+        "sstream": "cpp",
+        "ostream": "cpp",
+        "cctype": "cpp",
+        "clocale": "cpp",
+        "cmath": "cpp",
+        "csignal": "cpp",
+        "cstdarg": "cpp",
+        "cstddef": "cpp",
+        "cstdio": "cpp",
+        "cstdlib": "cpp",
+        "cstring": "cpp",
+        "ctime": "cpp",
+        "cwchar": "cpp",
+        "cwctype": "cpp",
+        "any": "cpp",
+        "array": "cpp",
+        "atomic": "cpp",
+        "hash_map": "cpp",
+        "hash_set": "cpp",
+        "strstream": "cpp",
+        "bit": "cpp",
+        "*.tcc": "cpp",
+        "bitset": "cpp",
+        "chrono": "cpp",
+        "codecvt": "cpp",
+        "complex": "cpp",
+        "condition_variable": "cpp",
+        "cstdint": "cpp",
+        "deque": "cpp",
+        "forward_list": "cpp",
+        "list": "cpp",
+        "map": "cpp",
+        "set": "cpp",
+        "unordered_map": "cpp",
+        "unordered_set": "cpp",
+        "vector": "cpp",
+        "exception": "cpp",
+        "algorithm": "cpp",
+        "functional": "cpp",
+        "iterator": "cpp",
+        "memory": "cpp",
+        "memory_resource": "cpp",
+        "numeric": "cpp",
+        "optional": "cpp",
+        "random": "cpp",
+        "ratio": "cpp",
+        "regex": "cpp",
+        "string": "cpp",
+        "string_view": "cpp",
+        "system_error": "cpp",
+        "tuple": "cpp",
+        "type_traits": "cpp",
+        "utility": "cpp",
+        "fstream": "cpp",
+        "future": "cpp",
+        "initializer_list": "cpp",
+        "iomanip": "cpp",
+        "iosfwd": "cpp",
+        "istream": "cpp",
+        "limits": "cpp",
+        "mutex": "cpp",
+        "new": "cpp",
+        "shared_mutex": "cpp",
+        "streambuf": "cpp",
+        "thread": "cpp",
+        "cfenv": "cpp",
+        "cinttypes": "cpp",
+        "typeindex": "cpp",
+        "typeinfo": "cpp",
+        "valarray": "cpp",
+        "variant": "cpp",
+        "*.ipp": "cpp"
+    }
 }
