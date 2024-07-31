@@ -1,23 +1,19 @@
 {
     "configurations": [
         {
+            "name": "ROS",
             "browse": {
                 "databaseFilename": "${default}",
                 "limitSymbolsToIncludedHeaders": false
             },
             "includePath": [
-                "/opt/ros/noetic/include/**",
-                "/usr/include/**",
-                "${workspaceFolder}/../devel/include/**",
-                "${workspaceFolder}/**"
+                "/usr/include",
+                "/usr/include/eigen3",
+                "/opt/ros/noetic/include",
+                "${workspaceFolder}/devel/include",
+                "${workspaceFolder}/src/**"
             ],
-            "forcedInclude": [
-                "/usr/include/**",
-                "/opt/ros/noetic/include/**"
-            ],
-            "name": "ROS",
             "intelliSenseMode": "gcc-x64",
-            "compilerPath": "/usr/bin/gcc",
             "cStandard": "gnu11",
             "cppStandard": "c++14"
         }
