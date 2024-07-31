@@ -1,5 +1,4 @@
 {
-    "ros.distro": "noetic",
     "editor.rulers": [
         {
             "column": 80,
@@ -14,6 +13,14 @@
             "color": "#3d0000"
         }
     ],
+
+    "editor.quickSuggestions": {
+        "other": "on",
+        "comments": "off",
+        "strings": "off"
+    },
+    "editor.suggestOnTriggerCharacters": true,
+
     "editor.defaultFormatter": "xaver.clang-format",
     "editor.renderWhitespace": "trailing",
     "editor.formatOnPaste": false,
@@ -23,6 +30,16 @@
     "C_Cpp.formatting": "clangFormat",
     "C_Cpp.clang_format_path": "/usr/bin/clang-format",
     "C_Cpp.clang_format_style": "file:${workspaceFolder}/.clang-format",
+
+    "C_Cpp.default.compilerPath": "/usr/bin/gcc",
+    "C_Cpp.default.intelliSenseMode": "gcc-x64",
+    "C_Cpp.default.browse.databaseFilename": "${default}",
+    "C_Cpp.default.compileCommands": "${default}",
+    "C_Cpp.default.configurationProvider": "${default}",
+    "C_Cpp.default.dotConfig": "${default}",
+    "C_Cpp.errorSquiggles": "enabled",
+    "C_Cpp.autocomplete": "default",
+
     "markdownlint.config": {
         "MD007": {
             "indent": 4
@@ -33,11 +50,9 @@
             ]
         },
     },
+    "ros.distro": "noetic",
+
     "python.autoComplete.extraPaths": [
-        "~/catkin_ws/devel/lib/python3/dist-packages",
-        "/opt/ros/noetic/lib/python3/dist-packages"
-    ],
-    "python.analysis.extraPaths": [
         "~/catkin_ws/devel/lib/python3/dist-packages",
         "/opt/ros/noetic/lib/python3/dist-packages"
     ],
@@ -117,13 +132,5 @@
         "valarray": "cpp",
         "variant": "cpp",
         "*.ipp": "cpp"
-    },
-    "C_Cpp.default.compilerPath": "/usr/bin/gcc",
-    "editor.quickSuggestions": {
-        "other": "on",
-        "comments": "off",
-        "strings": "off"
-    },
-    "editor.suggestOnTriggerCharacters": true,
-    "cmake.configureOnOpen": false
+    }
 }

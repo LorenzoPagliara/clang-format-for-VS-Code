@@ -18,7 +18,7 @@ To apply the configuration you only need to run the command:
 bash script.bash
 ```
 
-**NOTE**: By default, the script assumes that the VS Code workspace folder is `~/catkin_ws/src/`.
+**NOTE**: By default, the script assumes that the VS Code workspace folder is `~/catkin_ws/`.
 If you want to specify another directory, just run
 
 ```bash
